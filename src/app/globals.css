@@ -118,6 +118,37 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 }
+/* Home Theme */
+.home {
+  --background: #f5f5f5;
+  --foreground: #1f1f1f;
+  --primary: #ff5722;
+  --secondary: #ffccbc;
+}
+
+/* Breakfast Theme */
+.breakfast {
+  --background: #fff8e1;
+  --foreground: #3e2723;
+  --primary: #ffa726;
+  --secondary: #ffecb3;
+}
+
+/* Lunch Theme */
+.lunch {
+  --background: #e8f5e9;
+  --foreground: #1b5e20;
+  --primary: #4caf50;
+  --secondary: #a5d6a7;
+}
+
+/* Dinner Theme */
+.dinner {
+  --background: #263238;
+  --foreground: #eceff1;
+  --primary: #546e7a;
+  --secondary: #b0bec5;
+}
 
 @layer base {
   * {
