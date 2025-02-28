@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-6 mt-12">
+    <footer className="bg-orange-900 text-white py-6 mt-12">
       <div className="container mx-auto text-center">
         <p className="text-lg font-semibold">🍽️ Greate Food</p>
         <p className="text-gray-400">123 Street, San Francisco, CA</p>
