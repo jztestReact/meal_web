@@ -24,7 +24,7 @@ Vercel
 
 1. Clone the Repository
 
-`git clone https://github.com/YOUR_USERNAME/meal_web.git`
+`git clone "HTTPs of this link`
 
 `cd meal_web`
 
