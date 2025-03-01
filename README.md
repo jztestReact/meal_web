@@ -25,6 +25,7 @@ Vercel
 1. Clone the Repository
 
 `git clone https://github.com/YOUR_USERNAME/meal_web.git`
+
 `cd meal_web`
 
 2. Install Dependencies
