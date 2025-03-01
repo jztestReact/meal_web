@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# meal_web
 
-## Getting Started
+**#Project Documentation: React Front-End Website with CI/CD Pipeline**
 
-First, run the development server:
+Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a React-based web application that features three menu tabs: Breakfast, Lunch, and Dinner. The project is designed to showcase front-end skills, integrating Git version control and a CI/CD pipeline for automated testing and deployment. The project follows best DevOps practices and is automatically deployed to Vercel upon changes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/user-attachments/assets/fec459ff-2af8-46c4-b1c1-1aca6519cb31)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Tech Stack:**
+Front-End
+Next.js
+TypeScript
+TailwindCSS
+ShadCN/UI
+Next-Themes
+Jest & React Testing Library
+**CI/CD & Deployment**
+GitHub Actions
+Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Setup Instructions**
 
-## Learn More
+1. Clone the Repository
 
-To learn more about Next.js, take a look at the following resources:
+`git clone https://github.com/YOUR_USERNAME/meal_web.git`
+`cd meal_web`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`npm install`
 
-## Deploy on Vercel
+3. Run the Development Server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The app will be available at: http://localhost:3000
+
+4. Run Unit Tests
+   `npm test`
+
+**update working branch change:**
+`git add .`
+`git commit -m "change detial"`
+`git push origin working_branch`
+
+base on require to merge wen can use `git merge` or `git rebase(recommend)`;
