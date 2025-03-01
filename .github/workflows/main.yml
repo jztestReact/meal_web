@@ -1,4 +1,4 @@
-name: CI Pipeline for React Website
+name: CI/CD Pipeline for React Website
 
 on:
   push:
@@ -31,3 +31,21 @@ jobs:
 
       - name: Build Project
         run: npm run build
+
+  deploy:
+    name: Deploy to Vercel
+    needs: build-and-test # Ensure deployment runs only if tests pass
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Deploy to Vercel
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: vercel --prod --token=${{ secrets.VERCEL_TOKEN }} --yes
